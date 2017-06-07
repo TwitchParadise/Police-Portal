@@ -1,8 +1,8 @@
 <?php
-$username = "METTRE ICI"; // username
-$password = "METTRE ICI"; // password of the database
-$hostname = "METTRE ICI"; // host of the database
-$namebase = "METTRE ICI"; // name of the database
+$username = "police-portal"; // username
+$password = "your password"; // password of the database
+$hostname = "localhost"; // host of the database
+$namebase = "police"; // name of the database
 
 
 
