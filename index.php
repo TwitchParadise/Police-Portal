@@ -96,10 +96,10 @@ if(isset($_SESSION['id'])) {
 
 									';
 									include( "config.php" );
-									// On récupère tout le contenu de la table lspd
+									// Get contents of the lspd table
                                        $reponse = $bdd->query('SELECT * FROM lspd');
 
-									   // On affiche chaque entrée une à une
+									   // Display each entry one by one
 									   while ($donnees = $reponse->fetch())
 									   {
                                         ?>
@@ -125,7 +125,7 @@ if(isset($_SESSION['id'])) {
 												</tr>
 												<?php
 										}
-                                        $reponse->closeCursor(); // Termine le traitement de la requête
+                                        $reponse->closeCursor(); // Complete query 
 										echo '
                                  										
 											</tbody>

@@ -1,8 +1,8 @@
 <?php
-$username = "METTRE ICI"; // username
-$password = "METTRE ICI"; // password of the database
-$hostname = "METTRE ICI"; // host of the database
-$namebase = "METTRE ICI"; // name of the database
+$username = "police-portal"; // username
+$password = "your password"; // password of the database
+$hostname = "localhost"; // host of the database
+$namebase = "police"; // name of the database
 
 
 
@@ -26,14 +26,14 @@ $namebase = "METTRE ICI"; // name of the database
 
 
 
-// on tente la connexion à la base de donnée
+// Attempt to connect to the database
 try
  {
   $bdd = new PDO('mysql:host='.$hostname.';dbname='.$namebase.'', $username, $password);
  }
   catch (Exception $e)
  {
-  // En cas d'erreur, on affiche un message et on arrête tout
+  // If an error is thrown, display the message
   die('Erreur : ' . $e->getMessage());
  }
  ?>
