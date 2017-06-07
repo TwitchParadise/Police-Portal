@@ -59,7 +59,7 @@ if(isset($_SESSION['id'])) {
 										<a href="index.php" class="menu-top-active"> Home</a>
 									</li>
 									<li>
-										<a href="add_criminel.php">Add a criminal</a>
+										<a href="add_criminal.php">Add a criminal</a>
 									</li>
 								</ul>
 							</div>
