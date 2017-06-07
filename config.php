@@ -26,14 +26,14 @@ $namebase = "METTRE ICI"; // name of the database
 
 
 
-// on tente la connexion à la base de donnée
+// Attempt to connect to the database
 try
  {
   $bdd = new PDO('mysql:host='.$hostname.';dbname='.$namebase.'', $username, $password);
  }
   catch (Exception $e)
  {
-  // En cas d'erreur, on affiche un message et on arrête tout
+  // If an error is thrown, display the message
   die('Erreur : ' . $e->getMessage());
  }
  ?>
