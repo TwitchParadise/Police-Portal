@@ -2633,7 +2633,7 @@ select[multiple].input-lg {
 .help-block {
   display: block;
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #737373;
 }
 @media (min-width: 768px) {
