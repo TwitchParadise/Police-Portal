@@ -1,6 +1,10 @@
 # Change Log
 Most changes will be documented here.
 
+## [1.1.2] - 10/06/17
+### Changed
+- Made minor adjustments to the style of some elements 
+
 ## [1.1.1] - 08/06/17
 ### Added
 - You can now delete records
