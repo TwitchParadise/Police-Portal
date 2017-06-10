@@ -54,7 +54,7 @@ body {
     color:#000;
     text-decoration:none;
     font-weight:500;
-    padding: 25px 15px 25px 15px;
+    padding: 10px 15px 10px 15px;
     text-transform:uppercase;
 
 }
@@ -206,7 +206,7 @@ height: 60px;
    FOOTER SECTION STYLES
  ============================================================ */
 .footer-section {
-    padding:25px 50px 25px 50px;
+    padding:5px 50px 5px 50px;
     color:#000;
     font-size:13px;
       background-color: #f7f7f7;
