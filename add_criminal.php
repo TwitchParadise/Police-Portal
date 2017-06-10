@@ -45,10 +45,10 @@
 							<div class="navbar-collapse collapse ">
 								<ul id="menu-top" class="nav navbar-nav navbar-right">
 									<li>
-										<a href="index.php" class="menu-top-active"> Home</a>
+										<a href="index.php"> Home</a>
 									</li>
 									<li>
-										<a href="add_criminal.php">Add a criminal</a>
+										<a href="add_criminal.php" class="menu-top-active">Add a criminal</a>
 									</li>
 								</ul>
 							</div>
@@ -121,7 +121,5 @@
 				<script src="assets/js/jquery-1.10.2.js"></script>
 				<!-- BOOTSTRAP SCRIPTS  -->
 				<script src="assets/js/bootstrap.js"></script>
-				<!-- CUSTOM SCRIPTS  -->
-				<script src="assets/js/custom.js"></script>
 			</body>'; } else { header( "Location: login.php"); } ?>
 		</html>
