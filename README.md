@@ -17,13 +17,17 @@ $namebase = "police"; // name of the database
 - Once you have created an account, delete the `signup.php` file
 - You're done!
 
-## Features
-- Add players a criminal list
-- Search by each heading
-
 ## Demo
 A demo of this can be found [here](http://gtavrptest.16mb.com/login.php)
 
 Username: `test@test.com`
 
 Password: `test`
+
+
+## Features
+- Add and Delete players from a criminal list
+- Search by each heading
+
+## Feedback
+Feedback is great! If you have a suggestion or request, create an issue! Smilarly, if you have any issues, use the issue tab to let us know.
